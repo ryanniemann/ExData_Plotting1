@@ -1,4 +1,4 @@
-#Read the power consumption dataset from Data folder in workgin directory 
+#Read the power consumption dataset from Data folder in workgin directory
 HPC_data <- read.csv("./Data/household_power_consumption.txt", 
                      header=TRUE, sep=';', na.strings="?",  
                      check.names=FALSE, stringsAsFactors=FALSE, 
